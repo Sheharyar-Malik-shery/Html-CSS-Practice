@@ -1,0 +1,120 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 600px;
+    border-bottom: 25px solid #de041c;;
+}
+#home h1{
+   color: #de041c;
+   font-size:xx-large;
+   font-weight: bolder;
+   margin-top: 20px;
+
+}
+#home h2{
+    color: white;
+    font-size:xx-large;
+   font-weight: bolder;
+}
+#home p{
+   width: 600px;
+   text-align: center;
+   color: white;
+    
+}
+
+ #home::before{
+    content: "";
+    background: url('./images/HERO\ 1.jpg') no-repeat center center/cover ;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+} 
+
+#images{
+    width: 410px;
+    margin-left: 10px;
+}
+#multi-pics{
+   
+    height: 510px;
+    display: flex;
+    position: relative;
+   
+}
+#multi-pics::before{
+    content: "";
+    background: url('./images/output-onlinepngtools.png') no-repeat center center/cover ;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.1;
+} 
+
+#imgone{
+    width: 410px;
+    height: 290px;
+    padding-top: 10px;
+}
+#imgtwo{
+    width: 307px;
+    height: 200px;
+  
+}
+#imgthree{
+    width: 152px;
+    height: 200px;
+}
+#imgfour{
+    width: 253px;
+    height: 200px;
+    
+}
+#vedio iframe{
+    margin-top: -9rem;
+    margin-left: 0.5rem;
+}
+#multi-pics-two{
+  
+    width: 300px;
+    height: 380px;
+    margin-top: 132px;
+    margin-left: -31.3rem;
+}
+#imgfive{
+    width: 160px;
+    height: 120px;
+}
+#aside-text{
+    width: 500px;
+    margin-left: 35px;
+    margin-top: 200px;
+}
+#aside-text hr{
+    
+    margin-top: 9px;
+}
+#aside-text h1{
+    color: #de041c;;
+}
+#aside-text p{
+    margin-top: 12px;
+}
+#sec-p{
+    color: #de041c;;
+}

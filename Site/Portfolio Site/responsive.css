@@ -1,0 +1,356 @@
+/* responsive media query start */
+@media (max-width: 1104px) {
+    .about .about-content .left img{
+        height: 350px;
+        width: 350px;
+    }
+}
+
+@media (max-width: 991px) {
+    .max-width{
+        padding: 0 50px;
+    }
+}
+@media (max-width: 947px){
+    .menu-btn{
+        display: block;
+        z-index: 999;
+    }
+    .menu-btn i.active:before{
+        content: "\f00d";
+    }
+    .navbar .menu{
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        left: -100%;
+        top: 0;
+        background: #111;
+        text-align: center;
+        padding-top: 80px;
+        transition: all 0.3s ease;
+    }
+    .navbar .menu.active{
+        left: 0;
+    }
+    .navbar .menu li{
+        display: block;
+    }
+    .navbar .menu li a{
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 25px;
+    }
+
+    .home .home-content .text-2{
+        font-size: 70px;
+    }
+    .home .home-content .text-3{
+        font-size: 35px;
+    }
+    .home .home-content a{
+        font-size: 23px;
+        padding: 10px 30px;
+    }
+    .max-width{
+        max-width: 930px;
+    }
+    .about .about-content .column{
+        width: 100%;
+    }
+    .about .about-content .left{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 60px;
+    }
+    .about .about-content .right{
+        flex: 100%;
+    }
+    .services .serv-content .card{
+        width: calc(50% - 10px);
+        margin-bottom: 20px;
+    }
+    .skills .skills-content .column,
+    .contact .contact-content .column{
+        width: 100%;
+        margin-bottom: 35px;
+    }
+}
+
+@media (max-width: 690px) {
+    .max-width{
+        padding: 0 23px;
+
+    }
+    .home .home-content .text-2{
+        font-size: 60px;
+    }
+    .home .home-content .text-3{
+        font-size: 32px;
+    }
+    .home .home-content a{
+        font-size: 20px;
+    }
+    .services .serv-content .card{
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .home .home-content .text-2{
+        font-size: 50px;
+    }
+    .home .home-content .text-3{
+        font-size: 27px;
+    }
+    .about .about-content .right .text,
+    .skills .skills-content .left .text{
+        font-size: 19px;
+    }
+    .contact .right form .fields{
+        flex-direction: column;
+    }
+    .contact .right form .name,
+    .contact .right form .email{
+        margin: 0;
+    }
+    .right form .error-box{
+       width: 150px;
+    }
+    .scroll-up-btn{
+        right: 15px;
+        bottom: 15px;
+        height: 38px;
+        width: 35px;
+        font-size: 23px;
+        line-height: 38px;
+    }
+}
+
+@media screen and (max-width: 1180px) {
+    .identitet{
+        width: 100%;
+        height: auto;
+        padding: 70px 0;
+    }
+}
+@media screen and (max-width: 650px){
+    .identitet img{
+        margin-bottom: 35px;
+    }
+    .identitet-text h1{
+        font-size: 40px;
+        margin-bottom: 25px;
+    }
+}
+
+/* Write the media query to make responsive */
+  
+@media screen and (max-width: 1200px) {
+    .pricing-table__wrapper {
+      padding-top: 0px;
+    }
+  
+    .pricing-cards {
+      position: static;
+    }
+  }
+  @media screen and (max-width: 380px) {
+    .cjenik-button {
+      margin-top: 10px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .container_home {
+      margin-top: -200px;
+    }
+    .container_odrzavanje {
+        margin-top: -200px;
+      }
+      .container_dodatne {
+        margin-top: -100px;
+      }
+      .container_promocija {
+        margin-top: -120px;
+      }
+}
+@media screen and (min-width: 1200px) {
+.container_home {
+    margin-top: 210px;
+  }
+  .container_odrzavanje {
+    margin-top: 200px;
+  }  
+  .container_dodatne {
+    margin-top: 300px;
+  }
+  .container_promocija {
+    margin-top: 220px;
+  }
+  .footer_web_cjenik {
+    margin-top: 300px;
+  }
+  .footer_viyuelni_cjenik {
+    margin-top: 400px;
+  }
+
+}
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+    .container_ostali {
+      margin-top: -100px;
+    }
+    .container_ostali_vise {
+        margin-top: -200px;
+      }
+      .container_reklame {
+        margin-top: -100px;
+      }
+      .container_reklame_vise {
+        margin-top: -200px;
+      }
+      .container_katalog {
+        margin-top: -100px;
+      }
+      .container_katalog_vise {
+        margin-top: -200px;
+      }
+}
+@media screen and (min-width: 1200px) {
+    .container_ostali {
+        margin-top: 210px;
+      }
+      .container_ostali_vise {
+        margin-top: 200px;
+      }  
+      .container_reklame {
+        margin-top: 150px;
+      }
+      .container_reklame_vise {
+        margin-top: 220px;
+      }
+      .container_katalog {
+        margin-top: 180px;
+      }
+      .container_katalog_vise {
+        margin-top: 220px;
+      }
+      .footer_graficki {
+        margin-top: 300px;
+      }
+    
+    }
+    @media screen and (max-width: 350px){
+        body{
+            width: 350px;
+        }
+      }   
+      @media screen and (max-width: 450px){
+        body{
+            width: 450px;
+
+        }
+      } 
+      @media screen and (max-width: 859px){
+
+        .container_web .card_web {
+            width: 100%;
+            height: 280px;
+        }
+              } 
+
+    @media screen and (max-width: 1299px){
+        .home_web{
+            height: auto;
+        }
+    }
+    @media screen and (max-width: 1299px){    
+        .downArrow{
+            display: none;
+        }
+        .section_right{
+            display: none;
+
+        }
+        .section_in{
+            margin-top: -15px;
+            margin-right: auto;
+            margin-left: auto;
+            height: 500px;
+            width: 370px;
+            background: linear-gradient(to bottom, crimson, rgba(0,0,0,0));
+        }
+        .p_web1{
+            width: 55%;
+            font-size: 18px;
+            font-weight: 500;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    
+    /* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+    .footer-distributed{
+      font: bold 14px sans-serif;
+    }
+  
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right{
+      display: block;
+      width: 100%;
+      margin-bottom: 40px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .footer-distributed .footer-center i{
+      margin-left: 0;
+    }
+  
+  }
+
+
+  /*Mini Info Web*/
+  @media (max-width: 992px){
+    .container_web_about{
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+    }
+    .container_web_about .crad_web_about{
+      width: 400px;
+    }
+  }
+  @media (max-width: 768px){
+    .container_web_about .crad_web_about{
+      max-width: 300px;
+      flex-direction: column;
+      height: auto;
+    }
+    .container_web_about .crad_web_about .imgBox{
+      position: relative;
+
+    }
+    .container_web_about .crad_web_about .imgBox,
+    .container_web_about .crad_web_about:hover .imgBox{
+      width: 100%;
+      height: 200px;
+      left: 0;
+    }
+    .container_web_about .crad_web_about .imgBox img,
+    .container_web_about .crad_web_about:hover .imgBox img{
+      max-width: 100px;
+    }
+    .container_web_about .crad_web_about .content{
+      position: relative;
+      width: 100%;
+    }
+  }
